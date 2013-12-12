@@ -272,6 +272,10 @@ class TCPDI extends FPDF_TPL {
                         reset($this->_obj_stack[$filename]);
                     }
                 }
+
+                // We're done with this parser.  Clean it up to free a bit of RAM.
+                $this->current_parser->cleanUp();
+                unset($this->parsers[$filename]);
             }
         }
     }
