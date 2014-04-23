@@ -7,7 +7,9 @@ PDF importer for [TCPDF](http://www.tcpdf.org/), based on [FPDI](http://www.seta
 Installation
 ------------
 
-tcpdi.php to the directory containing TCPDF, along with [pauln/tcpdi_parser](https://github.com/pauln/tcpdi_parser) and [fdpf_tpl](http://www.setasign.de/products/pdf-php-solutions/fpdi/downloads/)
+Add tcpdi.php to the directory containing TCPDF, along with [pauln/tcpdi_parser](https://github.com/pauln/tcpdi_parser) and [fdpf_tpl](http://www.setasign.com/products/fpdi/downloads/#package-10102).
+
+Note that only the standalone version of fpdf_tpl is supported (v1.2.3); the version bundled with FPDI 1.5 is not currently compatible.
 
 
 Usage
