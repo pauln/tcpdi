@@ -65,3 +65,5 @@ As of version 1.1, TCPDI also includes additional functionality for handling PDF
     
     // Import the annotations for page 1.
     $pdf->importAnnotations(1);
+
+Note: tcpdi_parser v1.1 is required in order to import annotations, though setPageFormatFromTemplatePage() should work with older versions of tcpdi_parser.
